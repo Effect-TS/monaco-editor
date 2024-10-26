@@ -30,7 +30,7 @@
     "build": "ts-node ./build/build-languages",
     "build-monaco-editor": "npm run build && ts-node ./build/build-monaco-editor",
     "changeset-version": "changeset version",
-    "changeset-publish": "npm run build-monaco-editor && npm run import-typescript && npm run build-monaco-editor && npm publish"
+    "changeset-publish": "npm run build-monaco-editor && npm run import-typescript && npm run build-monaco-editor && cd out/monaco-editor && npm publish"
   },
   "typings": "./esm/vs/editor/editor.api.d.ts",
   "module": "./esm/vs/editor/editor.main.js",
