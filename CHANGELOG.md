@@ -1,5 +1,11 @@
 # @effect/monaco-editor
 
+## 0.0.2
+
+### Patch Changes
+
+- [#4](https://github.com/Effect-TS/monaco-editor/pull/4) [`8b5a664`](https://github.com/Effect-TS/monaco-editor/commit/8b5a6648c8a5da71f9d6b919982a87a3fbabe0c2) Thanks [@IMax153](https://github.com/IMax153)! - Fix the package.json that is published with the package
+
 ## 0.0.1
 
 ### Patch Changes
