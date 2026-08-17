@@ -10,6 +10,7 @@
 /samples/browser-esm-webpack-typescript/dist/*.js
 /samples/browser-esm-webpack-typescript-react/dist/*.js
 /src/language/typescript/lib/
+/src/language/typescript/tsWorker.ts
 /test/manual/generated/
 /website/lib/
 /website/typedoc/monaco.d.ts
