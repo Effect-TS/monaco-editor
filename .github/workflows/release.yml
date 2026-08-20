@@ -93,7 +93,7 @@ jobs:
         run: npm run build-monaco-editor && npm run import-typescript && npm run build-monaco-editor
 
       - name: Copy changesets directory
-        run: cp .changeset ./out/monaco-editor/.changeset
+        run: cp -r .changeset ./out/monaco-editor/.changeset
 
       - name: Pack packages
         id: pack
