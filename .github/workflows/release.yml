@@ -92,6 +92,9 @@ jobs:
       - name: Build packages
         run: npm run build-monaco-editor && npm run import-typescript && npm run build-monaco-editor
 
+      - name: Copy changesets directory
+        run: cp .changesets ./out/monaco-editor/.changesets
+
       - name: Pack packages
         id: pack
         uses: changesets/action/pack@v2
